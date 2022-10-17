@@ -13,6 +13,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "52.App.Modules.DevSpikes.In
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "31.App.Modules.DevSpikes.Application", "App.Modules.DevSpikes.Application\31.App.Modules.DevSpikes.Application.csproj", "{A2B3B3B0-88C8-47BC-93A0-1897051C28D7}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SOURCE", "SOURCE", "{83BC6DAF-FB0C-448A-B169-2A3647D878BA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ENVIRONMENT", "ENVIRONMENT", "{16CD9DA9-6E05-4CE7-B212-D6B8C195FC7A}"
+	ProjectSection(SolutionItems) = preProject
+		..\.gitignore = ..\.gitignore
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,6 +49,13 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{51CFE521-6167-4774-B760-975397FAA126} = {83BC6DAF-FB0C-448A-B169-2A3647D878BA}
+		{42CCA4EA-EB71-4F20-BF26-1E7726CE4DBE} = {83BC6DAF-FB0C-448A-B169-2A3647D878BA}
+		{B3E56C6C-76CE-4D0A-AE70-5B908E0AA10E} = {83BC6DAF-FB0C-448A-B169-2A3647D878BA}
+		{0A953BB7-7136-4E83-ABEF-3DDFB4061DAA} = {83BC6DAF-FB0C-448A-B169-2A3647D878BA}
+		{A2B3B3B0-88C8-47BC-93A0-1897051C28D7} = {83BC6DAF-FB0C-448A-B169-2A3647D878BA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0DBC95C2-1E3A-4117-8C4C-ED055477C5A6}
